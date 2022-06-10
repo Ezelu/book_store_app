@@ -1,0 +1,61 @@
+
+h1 {
+  text-align: center;
+  margin: 2% 0;
+}
+
+.form {
+  width: 60%;
+  margin: 0 auto;
+  background: white;
+  box-shadow: 0 0 50px rgb(187, 187, 187);
+  border-radius: 15px;
+  color: #180022;
+  padding: 2% 5%;
+}
+
+.form input {
+  width: 100%;
+  border: 1px solid transparent;
+  border-bottom: 1px solid #180022;
+  outline: 2px solid transparent;
+  height: 40px;
+  margin: 1% 0 3%;
+  font-size: 1em;
+  color: #180022;
+  padding-left: 2%;
+  background: transparent;
+  transition: border 0.5s ease, background 0.5s ease, border-radius 0.5s ease;
+}
+
+.form input:focus {
+  border: 1px solid transparent;
+  background: rgba(24, 0, 34, 0.6);
+  color: white;
+  border-radius: 20px;
+}
+
+.form span {
+  font-weight: bolder;
+}
+
+.form button {
+  display: block;
+  outline: 0;
+  border: 0;
+  background: #180022;
+  color: white;
+  height: 40px;
+  width: 50%;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background 0.5s ease;
+}
+
+.form button:hover {
+  background: #430081
+}
+
+.form i {
+  color: red;
+}
